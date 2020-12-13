@@ -44,7 +44,7 @@ public class Task1_5 {
         for (int f = 1; f <= 9; f++) { 
          // １つの段を表示 
           for (int j = 1; j <= 9; j++) { 
-            System.out.print(f * j + "||"); 
+            System.out.print(f * j + "|"); 
           } 
         // １つの段を表示し終わったところで、改行する 
         System.out.println(); 
