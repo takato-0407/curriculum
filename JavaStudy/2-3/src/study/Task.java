@@ -9,11 +9,7 @@ package study;
     	private int b = 20;
     	private int c = 30;
   
-    public void doTask(int a, int b, int c) {
-        this.a = 10;
-        this.b = 20;
-        this.c = 30;
-     }
+    
     
     public void doTask() {
     	System.out.println("plusメゾットの引数が一つの場合" + ";" + plus(a));
