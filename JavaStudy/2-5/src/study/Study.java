@@ -44,8 +44,11 @@ public class Study {
 
         // ③ カリキュラムを参考に拡張for文を使って、課題の画像と同じ表示になるよう記述してください。
         // 「shohinList」と「shopMap」が保持する値を上手く利用しましょう。
-        for (shohinList <String> entry : sampleHashMap.entrySet()) {
-            System.out.println(+"="+"になります！");
+        for (List.Entry<String, String> entry : shohinList.entrySet()) {
+            System.out.println("キー: " + entry.getKey() + "／値: " + entry.getValue());
+        
+        //for (shohinList <String> entry : sampleHashMap.entrySet()) {
+            //System.out.println("バナナ" + " = " 125 +" 円 " + "になります！");
         }
     }
 }
