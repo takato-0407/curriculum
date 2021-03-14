@@ -10,7 +10,7 @@ public class Check {
 		System.out.print("printNameメゾット → ");
 		System.out.print(printName(firstName, lastName));
 		
-		RobotPet introduce = new RobotPet();
+		Pet introduce = new Pet();
 		introduce.introduce();
 	    
 	}

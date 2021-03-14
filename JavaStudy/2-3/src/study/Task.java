@@ -1,5 +1,6 @@
 package study;
 
+
 // ① TaskクラスにCalculatorクラスを継承させなさい。
     public class Task extends Calculator{
     /**
