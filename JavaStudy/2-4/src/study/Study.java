@@ -1,4 +1,5 @@
 package study;
+
 //②Fruits.javaをインポートしなさい。
 import fruits.Fruits;
 /**
