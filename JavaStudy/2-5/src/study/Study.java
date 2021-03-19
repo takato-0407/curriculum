@@ -2,6 +2,7 @@ package study;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map.Entry;
 
 /**
  * 本課題では、コレクションフレームワークのList系クラスとMap系クラスの基本的な記述を学びましょう。
@@ -44,11 +45,10 @@ public class Study {
 
         // ③ カリキュラムを参考に拡張for文を使って、課題の画像と同じ表示になるよう記述してください。
         // 「shohinList」と「shopMap」が保持する値を上手く利用しましょう。
-        for (List.Entry<String, String> entry : shohinList.entrySet()) {
-            System.out.println("キー: " + entry.getKey() + "／値: " + entry.getValue());
-        
-        //for (shohinList <String> entry : sampleHashMap.entrySet()) {
-            //System.out.println("バナナ" + " = " 125 +" 円 " + "になります！");
+        for (Entry<String, Integer> key : shopMap.entrySet() ) {
+            System.out.println( key + " 円 " + "になります！" );
         }
+       
+        
     }
 }
