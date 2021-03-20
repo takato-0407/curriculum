@@ -1,0 +1,19 @@
+h1 { 
+  color: #0000FF;
+}
+/* コメントアウト */
+
+p { 
+  font-size: 50px;
+  font-family: Tahoma;
+}
+
+h2 {
+  width:500px; height:100px;
+  background-color: #ddd;
+}
+
+img {
+  width:10px;
+  height:10px;
+}
