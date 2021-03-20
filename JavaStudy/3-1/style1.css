@@ -1,0 +1,40 @@
+body{
+  min-height: 100%; 
+  height: 100%;
+}
+
+.contents{
+  height: 450px;
+  width: 400px;
+  display: block;
+  background-color: black;
+  margin: 0 auto; 
+}
+
+.header{
+  height: 100px;
+  width: 100%;
+  background-color: #141f40;
+}
+
+.center{
+  display: flex;
+}
+
+.left{
+  height: 250px;
+  width: 150px;
+  background-color: #80bfa8;
+}
+
+.right{
+  height: 250px;
+  width: 250px;
+  background-color: #8c2727;
+}
+
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color:#d98d30;
+}
